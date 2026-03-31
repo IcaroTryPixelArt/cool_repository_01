@@ -1,0 +1,41 @@
+
+        *{
+            margin: 0px;
+            border: 0px;
+            padding: 0px;
+        }
+
+
+        body{
+            background-color: #252525;
+        }
+
+        header{
+            padding: 32px;
+            border-bottom: 1px solid #333;
+            background-color: rgba(0, 0, 0, 0.168);
+        }
+        header:hover{
+            background-color: #333;
+            
+        }
+
+        header div{
+            text-align: right;
+        }
+        header div a{
+            color: whitesmoke;
+            text-decoration: none;
+            margin: 0 10px;
+            line-height: 30px;
+            
+        }
+        header div a:hover{
+            text-decoration: underline wavy #fbff7f;
+            color: #fbff7f;
+            position: relative 10px;
+            transition:
+                color 00ms,
+                text-decoration 00ms,
+                position 200ms;
+        }
